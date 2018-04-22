@@ -24,4 +24,5 @@ class Welcome extends CI_Controller {
 		// $this->load->view('welcome_message', $data);
 		$this->parser->parse('welcome_message', $data);
 	}
+	
 }
